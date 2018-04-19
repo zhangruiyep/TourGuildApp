@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TourGuildApp</string>
+    <string name="tourist_spots_category">Tourist Spots</string>
+    <string name="food_category">Food</string>
+    <string name="traffic_category">Traffic</string>
+    <string name="hotel_category">Hotel</string>
+</resources>
