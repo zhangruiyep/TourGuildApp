@@ -8,6 +8,6 @@ public class TouristSpotsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tourist_spots);
+        setContentView(R.layout.info_list);
     }
 }

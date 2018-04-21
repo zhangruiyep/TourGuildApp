@@ -18,17 +18,35 @@ public class MainActivity extends AppCompatActivity {
         foodTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent foodIntent = new Intent(MainActivity.this, FoodActivity.class);
-                startActivity(foodIntent);
+                Intent cateIntent = new Intent(MainActivity.this, FoodActivity.class);
+                startActivity(cateIntent);
             }
         });
 
         TextView hotelTextView = (TextView)findViewById(R.id.hotel_category_text_view);
-        foodTextView.setOnClickListener(new View.OnClickListener() {
+        hotelTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent hotelIntent = new Intent(MainActivity.this, HotelActivity.class);
-                startActivity(hotelIntent);
+                Intent cateIntent = new Intent(MainActivity.this, HotelActivity.class);
+                startActivity(cateIntent);
+            }
+        });
+
+        TextView TouristSpotsTextView = (TextView)findViewById(R.id.tourist_spots_category_text_view);
+        TouristSpotsTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent cateIntent = new Intent(MainActivity.this, TouristSpotsActivity.class);
+                startActivity(cateIntent);
+            }
+        });
+
+        TextView TrafficTextView = (TextView)findViewById(R.id.traffic_category_text_view);
+        TrafficTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent cateIntent = new Intent(MainActivity.this, TrafficActivity.class);
+                startActivity(cateIntent);
             }
         });
     }
