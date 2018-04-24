@@ -5,4 +5,5 @@
     <color name="colorAccent">#757575</color>
     <color name="colorFont">@android:color/black</color>
     <color name="colorItemTitle">@android:color/white</color>
+    <color name="colorFood">#EF6C00</color>
 </resources>

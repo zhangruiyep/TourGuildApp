@@ -16,6 +16,7 @@
             style="@style/Category"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
             android:text="@string/tourist_spots_category" />
 
         <TextView
@@ -23,6 +24,7 @@
             style="@style/Category"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/colorFood"
             android:text="@string/food_category" />
 
         <TextView

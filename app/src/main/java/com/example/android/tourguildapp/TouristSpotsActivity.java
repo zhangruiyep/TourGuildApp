@@ -20,7 +20,7 @@ public class TouristSpotsActivity extends AppCompatActivity {
 
 
         //InfoAdapter itemsAdapter = new InfoAdapter(this, info, R.color.category_colors);
-        InfoAdapter itemsAdapter = new InfoAdapter(this, info, R.color.colorPrimaryDark);
+        InfoAdapter itemsAdapter = new InfoAdapter(this, info, R.color.colorAccent);
         ListView listView = (ListView) findViewById(R.id.info_list_view);
         //GridView listView = (GridView) findViewById(R.id.listView);
         listView.setAdapter(itemsAdapter);
